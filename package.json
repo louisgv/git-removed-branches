@@ -1,10 +1,10 @@
 {
-  "name": "grpbf",
+  "name": "grbpf",
   "version": "1.0.0",
   "description": "Git: Remove local branches which are no longer available on the remote",
   "main": "index.js",
   "bin": {
-    "grpbf": "./bin/git-removed-branches"
+    "grbpf": "./bin/git-removed-branches"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
