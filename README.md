@@ -16,7 +16,7 @@ This command works without the need to run `git fetch -p`, but a working network
 ### NPM
 
 ```bash
-$ npm install -g git-removed-branches
+$ npx grbpf
 ```
 
 Please install a package globally with -g flag so that you can use it directly as a subcommand of git, like this:

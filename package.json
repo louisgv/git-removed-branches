@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Git: Remove local branches which are no longer available on the remote",
   "main": "index.js",
-  "preferGlobal": true,
   "bin": {
     "grpbf": "./bin/git-removed-branches"
   },
