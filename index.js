@@ -6,7 +6,6 @@ const argv = require('minimist')(process.argv, {
   alias: { r: 'remote' },
   default: {
     remote: 'origin',
-    force: false,
   },
 });
 
@@ -15,6 +14,7 @@ const hasInvalidParams = Object.keys(argv).some(
   (name) => options.indexOf(name) == -1
 );
 
+console.log(hasInvalidParams);
 (async () => {
   if (hasInvalidParams) {
     console.info('Usage: grbpf [-r|--remote <remote>]');
