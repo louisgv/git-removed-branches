@@ -1,29 +1,30 @@
 {
-  "name": "git-removed-branches",
+  "name": "grbpf",
   "version": "2.1.0",
   "engines": {
-    "node": ">=7.10.1"
+    "node": ">=16.10.0"
   },
   "description": "Git: Remove local branches which are no longer available on the remote",
   "main": "index.js",
-  "preferGlobal": true,
   "bin": {
-    "git-removed-branches": "bin/git-removed-branches"
+    "grbpf": "./bin/git-removed-branches",
+    "git-rbpf": "./bin/git-removed-branches"
   },
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nemisj/git-removed-branches.git"
+    "url": "https://github.com/louisgv/git-removed-branches"
   },
-  "author": "Maks Nemisj",
+  "author": "L",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nemisj/git-removed-branches/issues"
-  },
-  "homepage": "https://github.com/nemisj/git-removed-branches",
+  "homepage": "https://github.com/louisgv/git-removed-branches",
   "dependencies": {
     "minimist": "^1.2.0"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true
   }
 }
