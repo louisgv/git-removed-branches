@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/louisgv/git-removed-branches"
+    "url": "https://github.com/louisgv/grbpf"
   },
   "author": "L",
   "license": "MIT",
-  "homepage": "https://github.com/louisgv/git-removed-branches",
+  "homepage": "https://github.com/louisgv/grbpf",
   "dependencies": {
     "minimist": "^1.2.0"
   },
