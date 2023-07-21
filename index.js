@@ -14,7 +14,6 @@ const hasInvalidParams = Object.keys(argv).some(
   (name) => options.indexOf(name) == -1
 );
 
-console.log(hasInvalidParams);
 (async () => {
   if (hasInvalidParams) {
     console.info('Usage: grbpf [-r|--remote <remote>]');
